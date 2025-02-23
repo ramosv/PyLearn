@@ -1,0 +1,7 @@
+# These requirements are only for packahe publishing and testing. Not part of the PyLearnLite
+
+setuptools
+wheel
+twine
+pytest
+sphinx
