@@ -1,7 +1,5 @@
-.. PyLearn-AI documentation master file
-
 Welcome to the PyLearn-AI Documentation
-====================================
+=======================================
 
 PyLearn-AI is a pure-Python machine learning and deep learning framework built entirely with the Python standard library.
 No external dependencies required.
@@ -25,7 +23,7 @@ Usage
 -----
 .. code-block:: python
 
-    from pylearn.core.unitframe import UnitFrame
+    from pylearn_ai.core.unitframe import UnitFrame
 
     uf = UnitFrame([[1, 2], [3, 4]])
     print(uf)
@@ -42,6 +40,3 @@ Project Structure
     ├── unsupervised/   # Clustering, dimensionality reduction
     ├── utils/          # Activations, losses, metrics, and preprocessing
 
-License
--------
-This project is licensed under the MIT License. See :doc:`../../LICENSE`.

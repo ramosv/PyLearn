@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('../../PyLearn-AI'))
 project = 'PyLearn-AI'
 author = 'Vicente Ramos'
 
-release = '0.1.0b2'
+release = '0.1.0b3'
 version = '0.1.0'
 
 extensions = [

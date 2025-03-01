@@ -35,7 +35,7 @@ pip install pylearn-ai
 ## Usage
 
 ```python
-from pylearn.core.unitframe import UnitFrame
+from pylearn_ai.core.unitframe import UnitFrame
 
 uf = UnitFrame([[1, 2], [3, 4]])
 print(uf)
