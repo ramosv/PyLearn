@@ -1,9 +1,9 @@
-.. PyLearn documentation master file
+.. PyLearn-AI documentation master file
 
-Welcome to the PyLearn Documentation
+Welcome to the PyLearn-AI Documentation
 ====================================
 
-PyLearn is a pure-Python machine learning and deep learning framework built entirely with the Python standard library.
+PyLearn-AI is a pure-Python machine learning and deep learning framework built entirely with the Python standard library.
 No external dependencies required.
 
 Features
@@ -18,14 +18,14 @@ Features
 
 Novelty
 -------
-PyLearn does not use NumPy or any other external libraries.
+PyLearn-AI does not use NumPy or any other external libraries.
 At its core, the ``UnitFrame`` data structure assists with common matrix operations.
 
 Usage
 -----
 .. code-block:: python
 
-    from PyLearn.core.unitframe import UnitFrame
+    from pylearn.core.unitframe import UnitFrame
 
     uf = UnitFrame([[1, 2], [3, 4]])
     print(uf)
@@ -34,7 +34,7 @@ Project Structure
 -----------------
 .. code-block:: text
 
-    PyLearn/
+    PyLearn-AI/
     ├── core/           # Core algorithms, structures, and tensor class
     ├── neural/         # Deep learning models (MLP, CNN, GNN)
     ├── reinforcement/  # Reinforcement learning (Q-learning, policy optimization)

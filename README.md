@@ -1,6 +1,6 @@
-# PyLearn
+# PyLearn-AI
 
-**PyLearn** is a pure-Python machine learning and deep learning framework built entirely with the Python standard library. No external dependencies required.
+**PyLearn-AI** is a pure-Python machine learning and deep learning framework built entirely with the Python standard library. No external dependencies required.
 
 ## Features
 - No dependencies (NO NumPy, SciPy, or Pandas), just Python 3.10
@@ -14,7 +14,7 @@
 
 Before starting this project, I searched for similar packages and was not surprised to find a handful of them, many of which use NumPy at the core of their framework.
 
-What makes this project stand out is that **PyLearn** does not use NumPy or any other external libraries.
+What makes this project stand out is that **PyLearn-AI** does not use NumPy or any other external libraries.
 
 At the core of the package is the `UnitFrame` data structure, which assists with common matrix operations performed in modern ML/DL libraries. It serves a similar purpose as a NumPy array or a pandas DataFrame.
 
@@ -24,18 +24,18 @@ This package is not intended to be used to train, optimize, or build the next ma
 
 ## Work in Progress
 
-To my surprise, **PyLearn** was available in the Python Package Index. To secure the name, I published the package prematurely. I will be releasing beta versions as development continues.
+To my surprise, **PyLearn-AI** was available in the Python Package Index. To secure the name, I published the package prematurely. I will be releasing beta versions as development continues.
 
 ## Installation
 
 ```bash
-pip install pylearn
+pip install pylearn-ai
 ```
 
 ## Usage
 
 ```python
-from PyLearn.core.unitframe import UnitFrame
+from pylearn.core.unitframe import UnitFrame
 
 uf = UnitFrame([[1, 2], [3, 4]])
 print(uf)
@@ -44,7 +44,7 @@ print(uf)
 ## Project Structure
 
 ```plaintext
-PyLearn/
+PyLearn-AI/
 ├── core/           
 ├── neural/         
 ├── reinforcement/  
