@@ -1,4 +1,4 @@
-# These requirements are only for packahe publishing and testing. Not part of the PyLearnLite
+# These requirements are only for packahe publishing and testing. Not part of the PyLearn
 
 setuptools
 wheel

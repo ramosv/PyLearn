@@ -1,11 +1,13 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../pylearnlite'))
+sys.path.insert(0, os.path.abspath('../../PyLearn'))
 
-project = 'PyLearnLite'
-author = 'Your Name'
-release = '0.1.0-beta'
+project = 'PyLearn'
+author = 'Vicente Ramos'
+
+release = '0.1.0b1'
+version = '0.1.0'
 
 extensions = [
     'sphinx.ext.autodoc',
